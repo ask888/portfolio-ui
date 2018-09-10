@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.268 14.173">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #707070;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="arrow" transform="translate(-637.732 1677.45) rotate(180)">
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-1" width="139.208" height="1.17" rx="0.585" transform="translate(-779 1669.849)"/>
+    <path id="Path_1" data-name="Path 1" class="cls-2" d="M-552.674,1664.135l6.834,6.522-6.834,6.186" transform="translate(-93.361 -0.135)"/>
+  </g>
+</svg>
