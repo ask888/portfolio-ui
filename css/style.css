@@ -256,7 +256,7 @@ h1 {
 /*}*/
 
 .skills-wrapper, #about-me-link, #slider-wrapper {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 /*.about-me-text-block {*/
     /*width: 70%;*/
@@ -651,7 +651,7 @@ footer {
     padding-top: 170px;
 }
 .main-portfolio-block {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: block;
 }
 .main-portfolio-img img {
@@ -702,7 +702,7 @@ footer {
     font: 20px/30px 'Quicksand';
     color: #707070;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 /*.intro-img-block {*/
     /*margin-bottom: 100px;*/
@@ -711,7 +711,7 @@ footer {
     text-align: left;
 }
 .work-description {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .work-description, .tools-description {
     font: 20px/30px 'Quicksand';
@@ -721,7 +721,7 @@ footer {
     width: 100%;
 }
 .work-main-info-wrapper {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .main-page-img-block {
     display: block;
@@ -745,8 +745,32 @@ footer {
     width: auto;
     max-height: 280px;
 }
+.mobile-img {
+    display: block;
+    text-align: center;
+}
+.mobile-img img{
+    /*display: block;*/
+    width: 80%;
+}
+.img-gif {
+    text-align: center;
+}
+.main-page-img-block.market-img img {
+    max-height: 430px;
+}
 
+.video-wrapper {
+    position: relative;
+}
 
+video {
+    position: absolute;
+    width: 75.5%;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 
@@ -860,12 +884,28 @@ footer {
     .main-portfolio-text p {
         line-height: 23px;
     }
-
-
-
-
     .main-page-img-block.img-gif img {
-        max-height: 120px;
+        max-height: 250px;
+        /*max-height: 120px;*/
+    }
+    .project-title, .work-main-info-wrapper, .work-description, .tools-description, .main-page-wrapper {
+        margin-bottom: 30px;
+    }
+    .work-description {
+        text-align: justify;
+    }
+    .work-tools-wrapper h2, .tools-description {
+        text-align: center;
+    }
+    .tools-description {
+        font-weight: bold;
+    }
+
+
+
+
+    .main-page-img-block.main-page-img-block-sm img {
+        width: 100%;
     }
 }
 
