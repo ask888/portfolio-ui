@@ -713,9 +713,12 @@ footer {
 .work-description {
     margin-bottom: 50px;
 }
-.work-description, .tools-description {
-    font: 20px/30px 'Quicksand';
+.work-description p, .tools-description {
+    font: 20px/25px 'Quicksand';
     color: #394E4E;
+}
+.work-description p {
+    margin-bottom: 15px;
 }
 .work-fonts-colours-img-wrapper img {
     width: 100%;
@@ -773,6 +776,9 @@ video {
     top: 7%;
     left: 50%;
     transform: translateX(-50%);
+}
+video.rest-video {
+    top: 16%;
 }
 
 
@@ -894,7 +900,8 @@ video {
     .project-title, .work-main-info-wrapper, .work-description, .tools-description, .main-page-wrapper {
         margin-bottom: 30px;
     }
-    .work-description {
+    .work-description p{
+        margin-bottom: 10px;
         text-align: justify;
     }
     .work-tools-wrapper h2, .tools-description {
