@@ -670,6 +670,8 @@ footer {
     margin-top: 35px;
 }
 .main-portfolio-text h2, .main-portfolio-text p {
+    font-family: 'Quicksand';
+    line-height: 25px;
     color: #707070;
     text-decoration: none;
 }
