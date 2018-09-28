@@ -314,9 +314,11 @@ h1 {
 .slider-link {
     display: flex;
     text-decoration: none;
+    cursor: pointer!important;
 }
 .slider-link:hover {
     text-decoration: none;
+    cursor: pointer!important;
 }
 .slider-img {
     width: 60%;
@@ -363,6 +365,7 @@ h1 {
     width: 82px;
     height: 15px;
     float: left;
+    cursor: pointer;
 }
 .owl-carousel .owl-nav button.owl-next{
     background: url('../imgs/arrow_next.svg') no-repeat 0 0;
@@ -370,6 +373,7 @@ h1 {
     width: 82px;
     height: 15px;
     float: right;
+    cursor: pointer;
 }
 .owl-nav::after {
     clear: both;
@@ -378,6 +382,7 @@ h1 {
 }
 .owl-carousel .owl-nav button.owl-prev:focus, .owl-carousel .owl-nav button.owl-next:focus {
     outline: none;
+    cursor: pointer;
 }
 
 /* added slider styles end */
@@ -798,7 +803,7 @@ video.rest-video {
         font: 18px/25px 'Quicksand';
     }
     .skills-wrapper .skills-list li {
-        font: bold 35px/45px 'Quicksand', serif;
+        font: bold 25px/45px 'Quicksand', serif;
         padding-right: 32px;
         margin-right: 12px;
     }
@@ -842,6 +847,7 @@ video.rest-video {
         max-height: 200px;
     }
     .slider-link {
+        cursor: pointer!important;
         flex-direction: column;
         /*display: flex;*/
     }
@@ -850,12 +856,13 @@ video.rest-video {
     }
     .slider-img, .slider-text {
         width: 100%;
+        margin-top: 20px;
     }
     .owl-nav {
         display: none;
     }
     .skills-wrapper .skills-list li {
-        font: bold 25px/35px 'Quicksand', serif;
+        font: bold 22px/35px 'Quicksand', serif;
         padding-right: 32px;
         margin-right: 12px;
     }
@@ -875,9 +882,10 @@ video.rest-video {
         text-align: justify;
     }
     .skills-wrapper, #about-me-link, #slider-wrapper {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     .socials-block {
+        margin-left: 30px;
         justify-content: center;
     }
     .contacts-block, .about-me-title, .skills-title {
