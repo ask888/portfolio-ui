@@ -257,6 +257,8 @@ h1 {
 
 .skills-wrapper, #about-me-link, #slider-wrapper {
     margin-bottom: 50px;
+    /*height: 100vh;*/
+    align-items: center;
 }
 /*.about-me-text-block {*/
     /*width: 70%;*/
@@ -343,10 +345,10 @@ h1 {
     font: 20px/30px 'Quicksand';
 }
 .slider-text h2{
-    background: linear-gradient(to right, #65b1b3 20%,#4646FF 40%,#4646FF 60%, #65b1b3 80%);
+    background: linear-gradient(to right, #387072 20%,#4646FF 40%,#4646FF 60%, #387072 80%);
 }
 .slider-text p{
-    background: linear-gradient(to right, #4646ff 20%, #65b1b3 40%, #65b1b3 60%, #4646ff 80%);
+    background: linear-gradient(to right, #4646ff 20%, #387072 40%, #387072 60%, #4646ff 80%);
 }
 .slider-text h2, .slider-text p {
     text-decoration: none;
@@ -802,7 +804,7 @@ video.rest-video {
         font: 25px/70px 'Quicksand', sans-serif;
     }
     .slider-text h2, .slider-text p {
-        font: 18px/25px 'Quicksand';
+        font: bold 18px/25px 'Quicksand';
     }
     .skills-wrapper .skills-list li {
         font: bold 25px/45px 'Quicksand', serif;
@@ -854,7 +856,7 @@ video.rest-video {
         /*display: flex;*/
     }
     .slider-text h2, .slider-text p, .about-me-text {
-        font: 16px/30px 'Quicksand';
+        font: bold 16px/30px 'Quicksand';
     }
     .slider-img, .slider-text {
         width: 100%;
