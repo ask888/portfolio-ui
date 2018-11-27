@@ -199,7 +199,7 @@
 (function ($) {
     $(function () {
 
-        // Initi Slider.
+        // Initialize Slider.
         $(".owl-carousel").owlCarousel({
             // animateOut: 'fadeOut',
             nav: true,
@@ -223,6 +223,9 @@
             $('.mobile-menu--wrapper').toggleClass('expanded');
             $('.menu-toggler').toggleClass('fa-bars fa-close');
         });
+
+        // Enable modal window.
+        $('.popup-img').magnificPopup({type:'image'});
     });
 })(jQuery);
 
