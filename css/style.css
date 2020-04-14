@@ -660,6 +660,10 @@ footer {
 .main-portfolio-block {
     margin-bottom: 50px;
     display: block;
+    text-decoration: none !important;
+}
+.main-portfolio-block:hover h2 {
+    text-decoration: none;
 }
 .main-portfolio-img img {
     max-width: 100%;
@@ -675,13 +679,18 @@ footer {
     font-family: 'Quicksand';
     line-height: 25px;
     color: #707070;
-    text-decoration: none;
 }
-.main-portfolio-text h2:hover, .main-portfolio-text p:hover {
+.main-portfolio-text h2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.main-portfolio-text h2:hover {
     text-decoration: none;
 }
 .main-portfolio-text p {
     margin-top: 20px;
+    text-decoration: none !important;
 }
 
 /* -------- works page -----------*/
@@ -816,8 +825,11 @@ video.rest-video {
     .logo {
         font: bold 31px/70px 'Quicksand', sans-serif;
     }
-    .slider-text h2, .slider-text p {
-        font: bold 18px/25px 'Quicksand';
+    .slider-text h2 {
+        font: bold 20px/25px 'Quicksand';
+    }
+    .slider-text p {
+        font: 18px/25px 'Quicksand';
     }
     .skills-wrapper .skills-list li {
         font: bold 25px/45px 'Quicksand', serif;
