@@ -684,8 +684,6 @@ footer {
     margin-top: 20px;
 }
 
-
-
 /* -------- works page -----------*/
 .main-works-wrapper {
     padding-top: 100px;
@@ -694,7 +692,7 @@ footer {
     margin-bottom: 20px;
 }
 .work-title {
-    font: 30px/40px 'Quicksand';
+    font: bold 40px/50px 'Quicksand';
     text-align: center;
     color: #394E4E;
 }
@@ -708,9 +706,9 @@ footer {
     display: block;
 }
 .project-title {
-    font: 20px/30px 'Quicksand';
+    font: bold 30px/30px 'Quicksand';
     color: #707070;
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
 }
 /*.intro-img-block {*/
@@ -728,6 +726,10 @@ footer {
 }
 .work-description p {
     margin-bottom: 15px;
+}
+.work-description h3 {
+    font: Bold 22px/28px Quicksand;
+    color: #394E4E;
 }
 .work-fonts-colours-img-wrapper img {
     width: 100%;
@@ -790,7 +792,18 @@ video.rest-video {
     top: 16%;
 }
 
+.img-caption {
+    font: 15px/19px Quicksand;
+    color: #707070;
+}
 
+.card--blue {
+    background: #DDF2F4;
+    box-shadow: 0 3px 6px #00000029;
+    font: 18px/23px Quicksand;
+    padding: 40px 30px;
+    height: 100%;
+}
 
 /* ----------- media -------------*/
 @media (min-width: 769px) {
@@ -798,10 +811,10 @@ video.rest-video {
         margin-right: 30px;
     }
     .nav-list a {
-        font: 14px/70px 'Quicksand', sans-serif;
+        font: 16px/70px 'Quicksand', sans-serif;
     }
     .logo {
-        font: 25px/70px 'Quicksand', sans-serif;
+        font: bold 31px/70px 'Quicksand', sans-serif;
     }
     .slider-text h2, .slider-text p {
         font: bold 18px/25px 'Quicksand';
@@ -912,7 +925,7 @@ video.rest-video {
     .project-title, .work-main-info-wrapper, .work-description, .tools-description, .main-page-wrapper {
         margin-bottom: 30px;
     }
-    .work-description p{
+    .work-description p {
         margin-bottom: 10px;
         text-align: justify;
     }
