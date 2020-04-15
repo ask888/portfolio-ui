@@ -57,22 +57,21 @@ header {
     display: block;
     content: "";
     height: 2px;
-    width: 0%;
+    width: 0;
     left: 50%;
     position: absolute;
-    -webkit-transition: width 0.3s ease-in-out;
-    -moz--transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
 .nav-list a:hover:after,
-.nav-list a:focus:after {
+.nav-list a:focus:after,
+.nav-list a.active:after {
     width: 100%;
 }
-
+.nav-list a.active {
+    font-weight: bold;
+}
 .logo {
     font: 31px/70px 'Quicksand', sans-serif;
     /*font: 35px/35px "Inconsolata", monospace;*/
@@ -813,6 +812,16 @@ video.rest-video {
     padding: 40px 30px;
     height: 100%;
 }
+.btn-previous {
+    background: #394E4E;
+    font: 20px/45px Quicksand, sans-serif;
+    border-radius: 0!important;
+}
+.btn-previous i {
+    font-size: 15px;
+    line-height: 45px;
+    vertical-align: top;
+}
 
 /* ----------- media -------------*/
 @media (min-width: 769px) {
@@ -956,6 +965,10 @@ video.rest-video {
     }
     .img-gif img {
         max-width: 100%;
+    }
+
+    .btn-previous-wrapper {
+        text-align: center;
     }
 }
 
