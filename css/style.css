@@ -35,7 +35,7 @@ header {
 .header-wrapper {
     border-bottom: 1px solid #dadada;
     background: #ffffff;
-    opacity: 0.8;
+    opacity: 0.95;
     transition: all ease .5s;
 }
 
@@ -277,7 +277,7 @@ h1 {
 }
 
 .skills-wrapper .skills-title, .about-me-title, .footer-title {
-    font: 20px/70px 'Quicksand', sans-serif;
+    font: bold 20px/70px 'Quicksand', sans-serif;
     color: #707070;
 }
 .about-me-text {
@@ -672,8 +672,8 @@ footer {
     text-align: center;
 }
 .main-portfolio-text {
-    text-align: center;
     margin-top: 35px;
+    padding: 0 30px;
 }
 .main-portfolio-text h2, .main-portfolio-text p {
     font-family: 'Quicksand';
@@ -841,7 +841,7 @@ video.rest-video {
         height: 11px;
     }
     .skills-wrapper .skills-title, .about-me-title, .footer-title {
-        font: 18px/70px 'Quicksand', sans-serif;
+        font: bold 18px/70px 'Quicksand', sans-serif;
     }
     .main-portfolio-img {
         width: 100%;
@@ -900,7 +900,7 @@ video.rest-video {
         height: 11px;
     }
     .skills-wrapper .skills-title, .about-me-title, .footer-title {
-        font: 15px/70px 'Quicksand', sans-serif;
+        font: bold 15px/70px 'Quicksand', sans-serif;
     }
     .skills-list {
         text-align: center;
